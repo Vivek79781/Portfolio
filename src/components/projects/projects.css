@@ -1,0 +1,141 @@
+.project-text{
+    font-size: 20px;
+    top: 10px;
+    font-weight: 100;
+}
+
+.projects-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+.projects-container .project{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.014);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.projects-container .project.project-1 .project-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url('../props/YelpCamp.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.projects-container .project.project-2 .project-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url('../props/SSFDS.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.projects-container .project.project-3 .project-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background: url('../props/Connect-DEV.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--color-sec-light);
+}
+
+.projects-container .project .project-info{
+    margin-left: 50px;
+    font-family: 'Open Sans';
+    max-width: 50%;
+}
+
+.projects-container .project .project-info .name{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.projects-container .project .project-info .languages{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.projects-container .project .project-info .about{
+    margin-top: 40px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.projects-container .project .project-info .links{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0;
+}
+
+.projects-container .project .project-info .links .link {
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-container .project .project-info .links a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.projects-container .project .project-info .links .link.deployed-link{
+    background-color: var(--color-pri-light);
+    padding: 17px 35px;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.1s ease;
+}
+
+.projects-container .project .project-info .links .link.deployed-link span {
+    text-transform: capitalize;
+}
+
+.projects-container .project .project-info .links .link.deployed-link:hover {
+    background-color: transparent;
+    border: 2px solid var(--color-pri-light);
+}
+
+.projects-container .project .project-info .links .link.code-link {
+    background-color: var(--color-sec-light);
+    padding: 17px 35px;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.1s ease;
+}
+
+.projects-container .project .project-info .links .link.code-link span {
+    text-transform: capitalize;
+}
+
+.projects-container .project .project-info .links .link.code-link:hover {
+    background-color: transparent;
+    border: 2px solid var(--color-sec-light);
+}
